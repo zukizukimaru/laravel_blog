@@ -12,8 +12,10 @@ class PostsController extends Controller
        // $posts =Post::all();
        //$posts = Post::orderBy('created_at','desc')->get();
        $posts = Post::latest()->get();
-       dd($posts->toArray()); //dump die
-        return view('posts.index');
+       //$posts =  [];
+       //dd($posts->toArray()); //dump die
+       // return view('posts.index',['posts' => $posts]);
+        return view('posts.index')->with('posts', $posts);
     }
   
 
