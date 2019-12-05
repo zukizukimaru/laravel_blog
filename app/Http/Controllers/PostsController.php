@@ -22,7 +22,7 @@ class PostsController extends Controller
      public function show() {
       //$post = Post::find($id);
       $post = Post::findOrFail($id);
-      return view('posts.show')->with('posts',$posts);
+      return view('posts.show')->with('posts', $posts);
     }
 }
 
