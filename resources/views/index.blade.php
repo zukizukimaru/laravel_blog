@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8"> 
 <title>Blog Posts</title>
+<link rel="stylesheet" href="/css/styles.css">
 <body>
   <div class="container">
    <h1>Blog Posts</h1>
