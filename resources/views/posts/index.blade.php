@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="utf-8"> 
-<title>Blog Posts</title>
+ <meta charset="utf-8"> 
+ <title>Blog Posts</title>
+</head>
 <link rel="stylesheet" href="/css/styles.css">
 <body>
   <div class="container">
@@ -14,4 +15,6 @@
     </ul>
   </div>
 </body>
-</head>
+
+</html>
+
