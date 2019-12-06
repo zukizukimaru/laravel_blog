@@ -19,10 +19,11 @@ class PostsController extends Controller
     }
   
 
-     public function show() {
+    //public function show($id) {
+        public function show(Post $post) {
       //$post = Post::find($id);
-      $post = Post::findOrFail($id);
-      return view('posts.show')->with('posts', $posts);
+      //$post = Post::findOrFail($id);
+      return view('posts.show')->with('post', $post);
     }
 }
 
