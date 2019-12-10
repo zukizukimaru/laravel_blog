@@ -42,6 +42,10 @@ class PostsController extends Controller
         return redirect('/');
     }
 
+    public function edit(Post $post) {
+        return view('posts.edit')->with('post', $post);
+      }
+
 
 }
 
