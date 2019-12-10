@@ -9,7 +9,7 @@
   </h1>
   <form method="post" action="{{ url('/posts', $post->id) }}">
   {{ csrf_field() }}
-  {{ method_field('pacth') }}
+  {{ method_field('patch') }}
    <p>
     <input type="text" name="title" placeholder="enter title" value="{{ old('title', $post->title) }}">
     @if ($errors->has('title'))
