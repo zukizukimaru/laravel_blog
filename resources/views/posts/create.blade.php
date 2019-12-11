@@ -16,9 +16,9 @@
     @endif
    </p>
    <p>
-    <textarea name="body" placeholder="enter body" >{{ old('title') }}</textarea>
+    <textarea name="body" placeholder="enter body" >{{ old('body') }}</textarea>
     @if ($errors->has('body'))
-    <span class="error">{{ $errors->first('title') }}</span>
+    <span class="error">{{ $errors->first('body') }}</span>
     @endif
    </p>
    <p>
